@@ -1,0 +1,68 @@
+* {
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  background-color: rgb(65, 65, 65);
+}
+
+#settingsPanel {
+  width: 300px;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h2,
+h3,
+h5 {
+  color: White;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+hr {
+  color: white;
+}
+
+i,
+.range-field {
+  margin: 1rem auto;
+  width: 250px;
+  height: 36px;
+}
+
+input {
+  color: white;
+}
+
+#settingsPanel {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#drawSpace {
+  width: 500px;
+  height: 500px;
+  border-style: solid;
+  border-color: rgb(54, 54, 54);
+  border-radius: 10px;
+}
+
+.settingsContainer {
+  background-color: rgba(2, 86, 119, 0.575);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#banner {
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <title>Etch-A-Sketch</title>
+      <meta name="description" content="Etch-A-Sketch">
+      <meta name="author" content="Matthew Heering">
+
+      <meta property="og:title" content="Etch-A-Sketch">
+      <meta property="og:type" content="website">
+      <meta property="og:description" content="Etch-A-Sketch">
+
+      <link rel="stylesheet" href="./styles.css">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+</head>
+
+<body>
+      <div  id="banner" class="navbar-fixed z-depth-5">
+            <nav>
+                  <div class="nav-wrapper teal lighten-1">
+                        <a href="#!" class="brand-logo center">Etch-A-Sketch</a>
+                  </div>
+            </nav>
+      </div>
+
+      <div class="container">
+            <div class="settingsContainer z-depth-4">
+                  <h3 id="settingsBanner">Settings</h3>
+                  <hr>
+                  <form id="settingsPanel">
+                        <input type="button" id="colorMode" class="waves-effect waves-light btn" value="Single Color Mode"></input>
+                        <input type="button" id="eraserMode" class="waves-effect waves-light btn" value="Eraser"></input>
+                        <input type="button" id="clearDrawing" class="waves-effect waves-light btn" value="Clear"></input>
+                        <h5>Size of Picture (# of pixels):</h5>
+                        <form action="#">
+                              <h5 class="range-field">
+                              <input type="range" id="pictureSize" min="1" max="100" />
+                              </h5>
+                        </form>
+                        
+                        
+                  
+                  </form> 
+            </div>
+            
+            <div id="drawSpace" class="z-depth-4">
+
+            </div>
+      </div>
+
+
+
+      <script src="./script.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
